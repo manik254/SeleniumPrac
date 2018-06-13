@@ -21,6 +21,7 @@ public class Google {
 		Thread.sleep(2000);
 		new Select(driver.findElement(By.name("PATIENT_CAT"))).selectByVisibleText("Insurance");
 		driver.findElement(By.name("image")).sendKeys("H:\\Photes\\share_it pics\\IMG_20170812_132936.jpg");
+		System.out.println("it is a git repo");
         
 	}
 
